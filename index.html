@@ -1,0 +1,32 @@
+<!-- 由于浏览器的跨域限制，需要先启动cors_server.py才能访问本地文件 -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>工作表</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calendar">
+        <div class="calendar-header">
+            <div class="left">
+                <button id="prev-week">&lt;</button>
+                <button id="today-button">今天</button>
+                <button id="next-week">&gt;</button>
+            </div>
+            <div class="center" id="current-month">
+                <span>2024年6月</span>
+                <input type="date" id="date-picker" style="display: none;">
+                <button id="dropdown-toggle">▼</button>
+            </div>
+            <div class="right" >
+            </div>
+        </div>
+        <div class="calendar-body" id="calendar-body">
+            <!-- 日期将由JavaScript动态填充 -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

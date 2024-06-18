@@ -1,0 +1,21 @@
+{
+    "2024-06-18":[
+        {
+            "title":"初步开发可视化工具",
+            "description":"开发了一个可视化工具，可以用来展示每天的工作内容",
+            "attach":"https://github.com/zjjyyyk/Ph.D-dairy"
+        },
+        {
+            "title":"demo",
+            "description":"这是一个demo",
+            "attach":"{{foldername}}/demo"
+        }
+    ],
+    "2024-06-19":[
+        {
+            "title":"demo",
+            "description":"这是一个demo",
+            "attach":"{{foldername}}/demo"
+        }
+    ]
+}
