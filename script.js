@@ -87,6 +87,9 @@ async function displayCalendar(firstDayOfWeek) {
                 });
                 eventDiv.style.cursor = 'pointer';
             }
+            if (event.color) {
+                eventDiv.style.backgroundColor = event.color;
+            }
             eventsDiv.appendChild(eventDiv);
         });
         dayDiv.appendChild(eventsDiv);
